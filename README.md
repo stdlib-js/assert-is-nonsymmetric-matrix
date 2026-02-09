@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isNonSymmetricMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonsymmetric-matrix@esm/index.mjs';
+import isNonSymmetricMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonsymmetric-matrix@v0.2.3-esm/index.mjs';
 ```
 
 #### isNonSymmetricMatrix( value )
@@ -74,7 +74,7 @@ var bool = isNonSymmetricMatrix( arr );
 <script type="module">
 
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@esm/index.mjs';
-import isNonSymmetricMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonsymmetric-matrix@esm/index.mjs';
+import isNonSymmetricMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonsymmetric-matrix@v0.2.3-esm/index.mjs';
 
 var arr = ndarray( 'generic', [ 1, 2, 3, 4 ], [ 2, 2 ], [ 2, 1 ], 0, 'row-major' );
 var out = isNonSymmetricMatrix( arr );
